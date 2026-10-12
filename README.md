@@ -141,6 +141,7 @@ only know your bed's retail brand, check the [Supported Actuators guide](docs/SU
 | ✅ [FurniMove / OKIN Smart Remote](docs/beds/furnimove.md) | App handset layouts, including RF ECO BT adjustable-bed receivers |
 | ✅ [OKIN Smart Remote / RF ECO BT](docs/beds/okin-rf-eco-bt.md) | Elda BTH / MEGAMAT staircase actuator |
 | ✅ [Okin DOT](docs/beds/okin-dot.md) | DewertOkin RF34/RF6707 handset beds (new RF1058 setups use FurniMove) |
+| ✅ [BedJet PowerLayer](docs/beds/bedjet-powerlayer.md) | BedJet PowerLayer adjustable frame (not the BedJet climate unit) |
 
 ✅ means supported by the integration. Some models are verified from their app
 rather than physical hardware; each linked guide records its testing status.

@@ -11,6 +11,7 @@ from .base import BedController
 
 if TYPE_CHECKING:
     from .adjustable_lumbar import AdjustableLumbarController as AdjustableLumbarController
+    from .bedjet_powerlayer import BedJetPowerLayerController as BedJetPowerLayerController
     from .coolbase import CoolBaseController as CoolBaseController
     from .customatic import CustomaticController as CustomaticController
     from .dewertokin_rf_gateway import (
@@ -93,6 +94,7 @@ _EXPORT_MODULES = {
     "ZSeriesController": "serenity",
     "SimmonsController": "simmons",
     "AdjustableLumbarController": "adjustable_lumbar",
+    "BedJetPowerLayerController": "bedjet_powerlayer",
     "RichmatMhController": "richmat_mh",
     "CustomaticController": "customatic",
     "CoolBaseController": "coolbase",
@@ -158,6 +160,7 @@ __all__ = [
     # Base class
     "BedController",
     # Protocol-based controllers
+    "BedJetPowerLayerController",
     "DewertOkinRfGatewayController",
     "DewertOkinUuidRfGatewayController",
     "OkinCB24Controller",
